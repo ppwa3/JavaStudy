@@ -7,6 +7,9 @@ public class HelloWorld {
 		System.out.println("3.Github연동완료");
 		System.out.println("4.집에서 작업");
 		System.out.println("5.집에서 작업2");
+		System.out.println("5.학원에서 작업");
+		System.out.println("5-1.학원에서 작업2");
+	
 	}
 
 }
