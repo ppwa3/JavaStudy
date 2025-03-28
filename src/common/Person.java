@@ -11,19 +11,23 @@ public class Person
 		this.name = name;
 		this.age = age;
 	}
-	//getter/setter
-	public String getName() 
-	{
+	
+	public String getName() {
 		return name;
 	}
-	public void setName(String name) 
-	{
+
+	public void setName(String name) {
 		this.name = name;
 	}
-	public void getAge(int age) 
-	{
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
 		this.age = age;
 	}
+
 	//객체의 정보를 반환
 	@Override
 	public String toString() {
